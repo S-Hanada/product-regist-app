@@ -1,5 +1,5 @@
 <?php
-//修正箇所：継承元のコードを呼び出し
+//継承元のコードを呼び出し
 require_once('./validation/BaseValidation.php');
 
 //ID照合機能

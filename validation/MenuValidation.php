@@ -1,9 +1,9 @@
 <?php
-//修正箇所：継承元のコードを呼び出し
+//継承元のコードを呼び出し
 require_once('./validation/BaseValidation.php');
 
 //メニュー入力のバリデーション
-//修正箇所：traitから継承に変更しました。
+//traitから継承に変更しました。
 class MenuValidation extends BaseValidation {
 	public function check($input) {
 		if(!parent::check($input)) {
